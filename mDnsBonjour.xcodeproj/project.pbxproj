@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61C1A2E1B066AEDAA84D276D /* Pods_mDnsBonjour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34DEC359264F9CEA89FEEB5 /* Pods_mDnsBonjour.framework */; };
+		825D8D53244C50BB004F9038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825D8D52244C50BB004F9038 /* AppDelegate.swift */; };
+		825D8D55244C50BB004F9038 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825D8D54244C50BB004F9038 /* SceneDelegate.swift */; };
+		825D8D57244C50BB004F9038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825D8D56244C50BB004F9038 /* ViewController.swift */; };
+		825D8D5A244C50BB004F9038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825D8D58244C50BB004F9038 /* Main.storyboard */; };
+		825D8D5C244C50BD004F9038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 825D8D5B244C50BD004F9038 /* Assets.xcassets */; };
+		825D8D5F244C50BD004F9038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825D8D5D244C50BD004F9038 /* LaunchScreen.storyboard */; };
+		825D8D67244C511E004F9038 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825D8D66244C511E004F9038 /* ServiceProvider.swift */; };
+		825D8D69244C512E004F9038 /* ServiceBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825D8D68244C512E004F9038 /* ServiceBrowser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		284FFE77DCB7EF8008A96167 /* Pods-mDnsBonjour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mDnsBonjour.release.xcconfig"; path = "Target Support Files/Pods-mDnsBonjour/Pods-mDnsBonjour.release.xcconfig"; sourceTree = "<group>"; };
+		4F5120654E19C3038C00B8F7 /* Pods-mDnsBonjour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mDnsBonjour.debug.xcconfig"; path = "Target Support Files/Pods-mDnsBonjour/Pods-mDnsBonjour.debug.xcconfig"; sourceTree = "<group>"; };
+		825D8D4F244C50BB004F9038 /* mDnsBonjour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mDnsBonjour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		825D8D52244C50BB004F9038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		825D8D54244C50BB004F9038 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		825D8D56244C50BB004F9038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		825D8D59244C50BB004F9038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		825D8D5B244C50BD004F9038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		825D8D5E244C50BD004F9038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		825D8D60244C50BD004F9038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		825D8D66244C511E004F9038 /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		825D8D68244C512E004F9038 /* ServiceBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceBrowser.swift; sourceTree = "<group>"; };
+		E34DEC359264F9CEA89FEEB5 /* Pods_mDnsBonjour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mDnsBonjour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		825D8D4C244C50BB004F9038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C1A2E1B066AEDAA84D276D /* Pods_mDnsBonjour.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		825D8D46244C50BB004F9038 = {
+			isa = PBXGroup;
+			children = (
+				825D8D51244C50BB004F9038 /* mDnsBonjour */,
+				825D8D50244C50BB004F9038 /* Products */,
+				A5EB729234865770FC792D21 /* Pods */,
+				CB8DA6E51A668B7BF164249B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		825D8D50244C50BB004F9038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				825D8D4F244C50BB004F9038 /* mDnsBonjour.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		825D8D51244C50BB004F9038 /* mDnsBonjour */ = {
+			isa = PBXGroup;
+			children = (
+				825D8D52244C50BB004F9038 /* AppDelegate.swift */,
+				825D8D54244C50BB004F9038 /* SceneDelegate.swift */,
+				825D8D56244C50BB004F9038 /* ViewController.swift */,
+				825D8D58244C50BB004F9038 /* Main.storyboard */,
+				825D8D5B244C50BD004F9038 /* Assets.xcassets */,
+				825D8D5D244C50BD004F9038 /* LaunchScreen.storyboard */,
+				825D8D60244C50BD004F9038 /* Info.plist */,
+				825D8D66244C511E004F9038 /* ServiceProvider.swift */,
+				825D8D68244C512E004F9038 /* ServiceBrowser.swift */,
+			);
+			path = mDnsBonjour;
+			sourceTree = "<group>";
+		};
+		A5EB729234865770FC792D21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F5120654E19C3038C00B8F7 /* Pods-mDnsBonjour.debug.xcconfig */,
+				284FFE77DCB7EF8008A96167 /* Pods-mDnsBonjour.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB8DA6E51A668B7BF164249B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E34DEC359264F9CEA89FEEB5 /* Pods_mDnsBonjour.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		825D8D4E244C50BB004F9038 /* mDnsBonjour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 825D8D63244C50BD004F9038 /* Build configuration list for PBXNativeTarget "mDnsBonjour" */;
+			buildPhases = (
+				47A48D3E30681B898D38DA93 /* [CP] Check Pods Manifest.lock */,
+				825D8D4B244C50BB004F9038 /* Sources */,
+				825D8D4C244C50BB004F9038 /* Frameworks */,
+				825D8D4D244C50BB004F9038 /* Resources */,
+				23E2EB6F4F5BE1B4A94F768A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mDnsBonjour;
+			productName = mDnsBonjour;
+			productReference = 825D8D4F244C50BB004F9038 /* mDnsBonjour.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		825D8D47244C50BB004F9038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "chinmaya panda";
+				TargetAttributes = {
+					825D8D4E244C50BB004F9038 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 825D8D4A244C50BB004F9038 /* Build configuration list for PBXProject "mDnsBonjour" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 825D8D46244C50BB004F9038;
+			productRefGroup = 825D8D50244C50BB004F9038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				825D8D4E244C50BB004F9038 /* mDnsBonjour */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		825D8D4D244C50BB004F9038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825D8D5F244C50BD004F9038 /* LaunchScreen.storyboard in Resources */,
+				825D8D5C244C50BD004F9038 /* Assets.xcassets in Resources */,
+				825D8D5A244C50BB004F9038 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23E2EB6F4F5BE1B4A94F768A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mDnsBonjour/Pods-mDnsBonjour-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mDnsBonjour/Pods-mDnsBonjour-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mDnsBonjour/Pods-mDnsBonjour-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47A48D3E30681B898D38DA93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mDnsBonjour-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		825D8D4B244C50BB004F9038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825D8D67244C511E004F9038 /* ServiceProvider.swift in Sources */,
+				825D8D57244C50BB004F9038 /* ViewController.swift in Sources */,
+				825D8D53244C50BB004F9038 /* AppDelegate.swift in Sources */,
+				825D8D69244C512E004F9038 /* ServiceBrowser.swift in Sources */,
+				825D8D55244C50BB004F9038 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		825D8D58244C50BB004F9038 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				825D8D59244C50BB004F9038 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		825D8D5D244C50BD004F9038 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				825D8D5E244C50BD004F9038 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		825D8D61244C50BD004F9038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		825D8D62244C50BD004F9038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		825D8D64244C50BD004F9038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5120654E19C3038C00B8F7 /* Pods-mDnsBonjour.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mDnsBonjour/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinmaya.com.mDnsBonjour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		825D8D65244C50BD004F9038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284FFE77DCB7EF8008A96167 /* Pods-mDnsBonjour.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mDnsBonjour/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinmaya.com.mDnsBonjour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		825D8D4A244C50BB004F9038 /* Build configuration list for PBXProject "mDnsBonjour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825D8D61244C50BD004F9038 /* Debug */,
+				825D8D62244C50BD004F9038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		825D8D63244C50BD004F9038 /* Build configuration list for PBXNativeTarget "mDnsBonjour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825D8D64244C50BD004F9038 /* Debug */,
+				825D8D65244C50BD004F9038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 825D8D47244C50BB004F9038 /* Project object */;
+}
